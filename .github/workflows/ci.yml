@@ -16,3 +16,5 @@ jobs:
       run: dotnet build --configuration Release
     - name: Test
       run: dotnet test --configuration Release --no-build
+    - name: Print Key
+      run: echo "key is ${{ secrets.NUGET_GITHUB_TOKEN }}."

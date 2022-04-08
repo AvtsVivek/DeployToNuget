@@ -35,6 +35,6 @@ jobs:
       # run: dotnet nuget push Avts.SimpleClassLib.${VERSION}.nupkg --source https://nuget.pkg.github.com/acraven/index.json --api-key ${GITHUB_TOKEN}
       run: dotnet nuget push Vivek.SimpleNuGet.Workflow.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_GITHUB_TOKEN}
       env:
-        GITHUB_TOKEN: ${{ secrets.NUGET_GITHUB_TOKEN }}
+        NUGET_GITHUB_TOKEN: ${{ secrets.NUGET_GITHUB_TOKEN }}
 
     # dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a -s https://api.nuget.org/v3/index.json

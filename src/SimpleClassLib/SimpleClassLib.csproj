@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>Vivek.SimpleNuGet.Workflow</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>
+      https://github.com/AvtsVivek/DeployToNuget
+    </RepositoryUrl>
+  </PropertyGroup>
+  
 </Project>

@@ -16,5 +16,10 @@
     <PackageIconUrl />
     <Version>0.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="images\nuget-logo-og-600x600.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+  
   
 </Project>

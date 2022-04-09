@@ -16,7 +16,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>images\nuget-logo-og-600x600.png</PackageIcon>
     
-    <Version>0.0.8</Version>
+    <Version>0.0.9</Version>
   </PropertyGroup>
 
   <ItemGroup>

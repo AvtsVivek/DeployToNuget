@@ -34,4 +34,4 @@ dotnet pack  --no-build -c Release src/SimpleClassLib/SimpleClassLib.csproj -o .
     </None>
   </ItemGroup>
 
-      <PackageIconUrl />
+      

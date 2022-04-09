@@ -15,8 +15,8 @@
     <RepositoryUrl>https://github.com/AvtsVivek/DeployToNuget</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>images\nuget-logo-og-600x600.png</PackageIcon>
-    
-    <Version>0.0.9</Version>
+    <PackageIconUrl />
+    <Version>0.0.10</Version>
   </PropertyGroup>
 
   <ItemGroup>

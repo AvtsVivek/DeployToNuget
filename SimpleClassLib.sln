@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iac", "iac", "{91776FC4-E4E
 		.github\workflows\ci.yml = .github\workflows\ci.yml
 		.github\workflows\release-preview.yml = .github\workflows\release-preview.yml
 		.github\workflows\release.yml = .github\workflows\release.yml
+		.github\workflows\releaseWithRohith.yml = .github\workflows\releaseWithRohith.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D730462-835C-45CD-B381-3B8A290FC53F}"
@@ -23,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		README.md = README.md
+		.github\workflows\releaseWithRohith.yml = .github\workflows\releaseWithRohith.yml
 	EndProjectSection
 EndProject
 Global

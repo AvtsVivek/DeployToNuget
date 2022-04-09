@@ -8,12 +8,14 @@
 
   <PropertyGroup>
     <Authors>Vivek Koppula</Authors>
+    <Company>Avts</Company>
     <PackageId>Vivek.SimpleNuGet.Workflow</PackageId>
+    <Summary>Trial Learning</Summary>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/AvtsVivek/DeployToNuget</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>nuget-logo-og-600x600.png</PackageIcon>
-    <PackageIconUrl />
+    
     <Version>0.0.5</Version>
   </PropertyGroup>
 

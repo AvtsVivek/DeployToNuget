@@ -54,7 +54,7 @@ jobs:
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
         PROJECT_FILE_PATH: src/SimpleClassLib/SimpleClassLib.csproj
-        # PACKAGE_NAME: ApolloBus
+        PACKAGE_NAME: Vivek.SimpleNuGet.Workflow
         VERSION_REGEX: '^\s*<Version>(.*)<\/Version>\s*$'
         TAG_FORMAT: '*'
         NUGET_KEY: ${{secrets.NUGET_GITHUB_TOKEN}} 

@@ -14,12 +14,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>nuget-logo-og-600x600.png</PackageIcon>
     <PackageIconUrl />
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="nuget-logo-og-600x600.png">

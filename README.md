@@ -33,3 +33,5 @@ dotnet pack  --no-build -c Release src/SimpleClassLib/SimpleClassLib.csproj -o .
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+      <PackageIconUrl />

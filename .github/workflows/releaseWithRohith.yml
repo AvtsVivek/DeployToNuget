@@ -56,7 +56,9 @@ jobs:
 
     - name: Publish to NuGet
       # uses: brandedoutcast/publish-nuget@v2.5.5
-      uses: rohith/publish-nuget@v2
+      # uses: rohith/publish-nuget@v2
+      uses: alirezanet/publish-nuget@v3.0.3
+
       with:
         PROJECT_FILE_PATH: src/SimpleClassLib/SimpleClassLib.csproj
         PACKAGE_NAME: Vivek.SimpleNuGet.Workflow

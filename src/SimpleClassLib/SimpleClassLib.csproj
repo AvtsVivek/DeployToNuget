@@ -18,10 +18,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="images\nuget-logo-og-600x600.png" Pack="true" PackagePath="">
+    <None Include="images\nuget-logo-og-600x600.png" Pack="true" >
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="images\ccc.jpeg" Pack="true" PackagePath="">
+    <None Include="images\ccc.jpeg" Pack="true" >
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

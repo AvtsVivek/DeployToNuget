@@ -20,3 +20,16 @@ https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/addi
 
 dotnet build --configuration Release src/SimpleClassLib/SimpleClassLib.csproj
 dotnet pack  --no-build -c Release src/SimpleClassLib/SimpleClassLib.csproj -o .
+
+
+
+
+
+  <ItemGroup>
+    <None Include="images\nuget-logo-og-600x600.png" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="images\ccc.jpeg" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>

@@ -16,3 +16,7 @@ git tag v0.0.2
 git push origin v0.0.2
 
 https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge
+
+
+dotnet build --configuration Release src/SimpleClassLib/SimpleClassLib.csproj
+dotnet pack  --no-build -c Release src/SimpleClassLib/SimpleClassLib.csproj -o .
